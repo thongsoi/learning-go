@@ -1,2 +1,2 @@
 # learning-go
-learning go programming language
+Learning go programming language
