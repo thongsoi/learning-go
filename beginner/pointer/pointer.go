@@ -1,9 +1,9 @@
 package main
 
-import "fmt"
+import "log"
 
 func main() {
-	var var1 int
-	var1 = 777
-	fmt.Println("Varible is", var1)
+	var myString string
+	myString = "Green"
+	log.Println("myString is set to", myString)
 }
