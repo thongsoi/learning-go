@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	wowow "package/mypackages"
+	wowow "package/mypackages" //root module name/package folder name
 )
 
 func main() {
