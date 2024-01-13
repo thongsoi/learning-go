@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	wow "packages/localPackage/myPackages" //moduel localPackage/myPackage folder
+	wow "localPackage/myPackages" //moduel localPackage/myPackage folder
 )
 
 func main() {
