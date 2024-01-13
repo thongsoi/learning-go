@@ -5,5 +5,5 @@ package wow
 import "fmt"
 
 func Wow2() {
-	fmt.Println("this is from wow package and function Wow2")
+	fmt.Println("This is from wow package and function Wow2")
 }
