@@ -10,6 +10,6 @@ func main() {
 	fmt.Println(courseName)
 	courseWeb := courseName[4:7] //select only last 3 arrays
 	fmt.Println(courseWeb)
-	courseWeb = courseName[:4] //select only first 4 arrays
+	courseWeb = courseName[0:3] //select only first 3 arrays
 	fmt.Println(courseWeb)
 }
