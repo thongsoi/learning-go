@@ -9,11 +9,11 @@ SET check_function_bodies = false;
 SET client_min_messages = warning;
 SET row_security = off;
 
-CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
-CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA pg_catalog;
-CREATE EXTENSION IF NOT EXISTS pgcrypto WITH SCHEMA pg_catalog;
+CREATE EXTENSION IF NOT EXISTS "plpgsql";
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+CREATE EXTENSION IF NOT EXISTS "pgcrypto";
 
-SET search_path = public, pg_catalog;
+SET search_path = public;
 SET default_tablespace = '';
 
 -- update updated at column
@@ -85,3 +85,4 @@ CREATE TRIGGER update_book_updated_at_column
     ON book
     FOR EACH ROW
     EXECUTE PROCEDURE update_updated_at_column();
+
