@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTMX Dynamic Data</title>
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body>
+    <div hx-get="/data" hx-trigger="every 5s" hx-swap="outerHTML">
+        <h1>Dynamic Data</h1>
+        <p>This content will be replaced every 5 seconds.</p>
+    </div>
+</body>
+</html>
